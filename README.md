@@ -4,16 +4,25 @@ Mr. Bean café are exploring better ways to offer their service to the customers
 The busy office professionals with a busy morning routine but still have access to their smart phones and want to order online to save time are the target audience of our application.Customers will be able to order on the fly and have their drink ready by the time they arrive.
 
 Tools and Technologies used:
+
 Github (version control system)
+
 Android studio
+
 Java language
+
 
 
 Team - Code_wars
 
+
 Collaborators  
-Dhananjaya W. K. S - It20667078,
-Sumanasekara H. P. - IT20665616,
-Gunasekara C. M. - IT20665852,
+
+Dhananjaya W. K. S - It20667078
+
+Sumanasekara H. P. - IT20665616
+
+Gunasekara C. M. - IT20665852
+
 Hettiarachchi H. A. T. T. - IT20668136
 
