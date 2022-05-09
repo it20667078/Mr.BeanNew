@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/menu_background_new"
+    tools:context=".menu.mainMenu">
+
+    <ImageButton
+        android:id="@+id/profileBtn"
+        android:layout_width="43dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="32dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.931"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/profile_user" />
+
+    <ImageButton
+        android:id="@+id/cartBtn"
+        android:layout_width="43dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="32dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toStartOf="@+id/profileBtn"
+        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/shoppingcart" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="- MENU -"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="34sp" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/americano"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginRight="60dp"
+                    android:background="#C1000000"
+                    android:clickable="true"
+                    android:text="AMERICANO"
+                    android:textAlignment="center"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/espresso"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginRight="60dp"
+                    android:background="#C1000000"
+                    android:text="ESPRESSO"
+                    android:textAlignment="center"
+                    android:textColor="#FFFFFF"
+                    android:clickable="true"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/macchiato"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginRight="60dp"
+                    android:background="#C1000000"
+                    android:text="MACCHIATO"
+                    android:textAlignment="center"
+                    android:textColor="#FFFFFF"
+                    android:clickable="true"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/mocha"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginRight="60dp"
+                    android:background="#C1000000"
+                    android:text="MOCHA"
+                    android:textAlignment="center"
+                    android:textColor="#FFFFFF"
+                    android:clickable="true"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/flat_white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginRight="60dp"
+                    android:background="#C1000000"
+                    android:text="FLAT WHITE"
+                    android:textAlignment="center"
+                    android:textColor="#FFFFFF"
+                    android:clickable="true"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/cappuccino"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginRight="60dp"
+                    android:background="#C1000000"
+                    android:text="CAPPUCCINO"
+                    android:textAlignment="center"
+                    android:textColor="#FFFFFF"
+                    android:clickable="true"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/latte"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginRight="60dp"
+                    android:background="#C1000000"
+                    android:text="LATTE"
+                    android:textAlignment="center"
+                    android:textColor="#FFFFFF"
+                    android:clickable="true"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
