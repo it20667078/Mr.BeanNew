@@ -1,2 +1,4 @@
-# Mr.BeanNew
-this is our Mobile Application Development  Project
+# Fully Functional mobile application for a coffee shop 
+# Mr. Bean Cafe
+
+
