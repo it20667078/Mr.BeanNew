@@ -5,9 +5,11 @@ The busy office professionals with a busy morning routine but still have access 
 
 Tools and Technologies used:
 
-Github (version control system)
-Android studio
-Java language
+          Github (version control system)
+
+          Android studio
+
+          Java language
 
 
 
@@ -16,11 +18,11 @@ Team - Code_wars
 
 Collaborators  
 
-Dhananjaya W. K. S - It20667078
+        Dhananjaya W. K. S - It20667078
 
-Sumanasekara H. P. - IT20665616
+        Sumanasekara H. P. - IT20665616
 
-Gunasekara C. M. - IT20665852
+        Gunasekara C. M. - IT20665852
 
-Hettiarachchi H. A. T. T. - IT20668136
+        Hettiarachchi H. A. T. T. - IT20668136
 
