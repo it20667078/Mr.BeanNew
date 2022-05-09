@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.savvycoffee">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SavvyCoffee">
+
+        <activity
+            android:name=".feedback.feedback_view"
+            android:exported="false" />
+        <activity
+            android:name=".feedback.add_feedback"
+            android:exported="false" />
+        
+    </application>
+
+</manifest>
