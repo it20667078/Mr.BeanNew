@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "480670899179",
+    "project_id": "savvycoffee-8a192",
+    "storage_bucket": "savvycoffee-8a192.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:480670899179:android:3ab72e67529d23e371d7ae",
+        "android_client_info": {
+          "package_name": "com.example.savvycoffee"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "480670899179-n8jvr51q6ddidvk4g0fm1dt67ildus37.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKeiC2NqTQDfBAbpFxf1IynR8BGcmNqNs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "480670899179-n8jvr51q6ddidvk4g0fm1dt67ildus37.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
