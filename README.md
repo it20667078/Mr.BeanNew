@@ -6,9 +6,7 @@ The busy office professionals with a busy morning routine but still have access 
 Tools and Technologies used:
 
 Github (version control system)
-
 Android studio
-
 Java language
 
 
