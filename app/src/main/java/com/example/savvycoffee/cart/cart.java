@@ -68,7 +68,7 @@ public class cart extends AppCompatActivity {
 
             }
         });
-
+//product deletion
         removeAll.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
